@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(220, 32, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    color: aliceblue;
+    text-align: center;
+}
+div h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+div button{
+    border: none;
+    background-color: darkgoldenrod;
+    color: aliceblue;
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(251, 184, 16);
+}
